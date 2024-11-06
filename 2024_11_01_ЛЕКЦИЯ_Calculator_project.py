@@ -1,6 +1,7 @@
 # ПРОГРАММА КАЛЬКУЛЯТОР
 from tkinter import * # Импортируем из tkinter все функции
 from tkinter import ttk # Расширенный вариант tkinter
+import Mathematical_operators as ma # Подключаем свой собственный модуль с математическими операциями
 
 window = Tk()
 window.title("КАЛЬКУЛЯТОР") # Переименовываем окно window
@@ -16,7 +17,7 @@ b1.grid(row=3,column=0)
 b2 = ttk.Button(window, text="2")
 b2.grid(row=3,column=1)
 b3 = ttk.Button(window, text="3")
-b3.grid(row=3,column=2)
+b3.grid(row=3,column=2)модуль
 b4 = ttk.Button(window, text="4")
 b4.grid(row=2,column=0)
 b5 = ttk.Button(window, text="5")
